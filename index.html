@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accounting, Audit &amp; Advisory Solutions for CPA &amp; Law Firms | CPAClub</title>
+<meta name="description" content="CPAClub provides expert accounting, advisory, audit, trust accounting, and compliance and regulatory solutions for accounting firms, law firms, and businesses.">
+<meta property="og:title" content="Accounting, Audit &amp; Advisory Solutions for CPA &amp; Law Firms | CPAClub">
+<meta property="og:description" content="CPAClub provides expert accounting, advisory, audit, trust accounting, and compliance and regulatory solutions for accounting firms, law firms, and businesses.">
+<meta property="og:site_name" content="CPAClub">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://cpaclub.cpa/wp-content/uploads/2025/03/social-share.webp">
+<link rel="icon" href="https://cpaclub.cpa/wp-content/uploads/2023/12/favicon-300x300.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --primary: #0A43D4;
+    --primary-light: #3C71F6;
+    --primary-pale: #9EB8FA;
+    --navy: #051F61;
+    --navy-deep: #00122F;
+    --ink: #202020;
+    --text: #4F4F4F;
+    --bg-soft: #EFF1F6;
+    --sand: #F5F2EF;
+    --tan: #BF845C;
+    --white: #FFFFFF;
+    --line: #E5E5E5;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif; color: var(--text); background: var(--white); line-height: 1.6; }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+  h1, h2, h3 { color: var(--ink); line-height: 1.15; font-weight: 700; letter-spacing: -0.02em; }
+  h1 { font-size: clamp(2.4rem, 5vw, 3.8rem); }
+  h2 { font-size: clamp(1.8rem, 3.4vw, 2.5rem); margin-bottom: 16px; }
+  h3 { font-size: 1.2rem; margin-bottom: 8px; }
+  section { padding: 88px 0; }
+  .btn { display: inline-block; padding: 14px 26px; border-radius: 8px; font-weight: 600; font-size: 0.98rem; transition: background .2s; }
+  .btn-primary { background: var(--primary); color: var(--white); }
+  .btn-primary:hover { background: var(--navy); }
+  .btn-ghost { border: 1.5px solid var(--primary); color: var(--primary); }
+  .btn-ghost:hover { background: var(--bg-soft); }
+  a:focus-visible, .btn:focus-visible { outline: 3px solid var(--primary-light); outline-offset: 3px; }
+
+  .topbar { background: var(--navy-deep); color: var(--white); font-size: 0.88rem; text-align: center; padding: 10px 16px; }
+  .topbar a { color: var(--primary-pale); font-weight: 600; margin-left: 10px; }
+
+  header.site { position: sticky; top: 0; z-index: 10; background: var(--white); border-bottom: 1px solid var(--line); }
+  header.site .wrap { display: flex; align-items: center; justify-content: space-between; height: 76px; gap: 24px; }
+  header.site img.logo { height: 34px; width: auto; }
+  nav { display: flex; gap: 28px; font-weight: 500; font-size: 0.95rem; color: var(--ink); }
+  nav a:hover { color: var(--primary); }
+  @media (max-width: 860px) { nav { display: none; } }
+
+  .hero { background: var(--bg-soft); padding: 80px 0; }
+  .hero .wrap { display: grid; grid-template-columns: 1.05fr 1fr; gap: 56px; align-items: center; }
+  .hero p.lead { font-size: 1.15rem; margin: 20px 0 32px; max-width: 520px; }
+  .hero .actions { display: flex; gap: 14px; flex-wrap: wrap; }
+  .hero img.photo { border-radius: 16px; width: 100%; }
+  @media (max-width: 860px) { .hero .wrap { grid-template-columns: 1fr; } }
+
+  .trust { padding: 48px 0; border-bottom: 1px solid var(--line); }
+  .trust .wrap { display: flex; align-items: center; gap: 40px; flex-wrap: wrap; justify-content: center; }
+  .trust .award { display: flex; align-items: center; gap: 14px; }
+  .trust .award img { height: 56px; width: auto; }
+  .trust .award strong { color: var(--ink); }
+  .trust .logos { display: flex; gap: 32px; align-items: center; flex-wrap: wrap; justify-content: center; }
+  .trust .logos img { height: 30px; width: auto; opacity: .85; }
+
+  .center { text-align: center; max-width: 720px; margin: 0 auto 48px; }
+  .pressures { background: var(--white); }
+  .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  @media (max-width: 860px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } .grid-3 { grid-template-columns: 1fr; } }
+  .pill-card { background: var(--bg-soft); border-radius: 12px; padding: 28px 20px; text-align: center; font-weight: 600; color: var(--ink); }
+  .pill-card img { height: 44px; margin: 0 auto 14px; }
+
+  .solutions { background: var(--sand); }
+  .cap { background: var(--white); border-radius: 14px; overflow: hidden; }
+  .cap img.shot { width: 100%; height: 190px; object-fit: cover; }
+  .cap .body { padding: 24px; }
+  .cap img.icon { height: 36px; margin-bottom: 12px; }
+  .solutions .actions { display: flex; gap: 14px; justify-content: center; margin-top: 40px; flex-wrap: wrap; }
+
+  .stats { background: var(--navy); color: var(--white); }
+  .stats h2 { color: var(--white); }
+  .stats .center p { color: var(--primary-pale); }
+  .stat { text-align: center; padding: 8px; }
+  .stat .num { font-size: 3rem; font-weight: 700; color: var(--white); letter-spacing: -0.03em; }
+  .stat .label { font-weight: 600; color: var(--primary-pale); }
+  .stat .sub { font-size: 0.9rem; color: #C9D6FB; }
+
+  .steps { background: var(--white); }
+  .step { border-top: 3px solid var(--primary); padding-top: 18px; }
+  .steps .actions { text-align: center; margin-top: 44px; }
+
+  .why { background: var(--bg-soft); }
+  .why .item img { height: 52px; margin-bottom: 14px; }
+  .why .actions { display: flex; gap: 14px; justify-content: center; margin-top: 44px; flex-wrap: wrap; }
+
+  .webinar { background: var(--sand); }
+  .webinar .wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
+  .webinar .tag { display: inline-block; background: var(--tan); color: var(--white); font-weight: 600; font-size: 0.82rem; padding: 4px 12px; border-radius: 99px; margin-bottom: 14px; }
+  .webinar .meta { color: var(--ink); font-weight: 600; margin: 10px 0 14px; }
+  .webinar img.photo { border-radius: 16px; }
+  @media (max-width: 860px) { .webinar .wrap { grid-template-columns: 1fr; } }
+
+  .seen .logos { display: flex; gap: 40px; flex-wrap: wrap; align-items: center; justify-content: center; }
+  .seen .logos img { height: 28px; width: auto; opacity: .8; }
+
+  .quotes { background: var(--bg-soft); }
+  .quote { background: var(--white); border-radius: 14px; padding: 28px; display: flex; flex-direction: column; justify-content: space-between; gap: 20px; }
+  .quote p { color: var(--ink); }
+  .quote .who strong { display: block; color: var(--ink); }
+  .quote .who span { font-size: 0.9rem; }
+
+  .recognized .badges { display: flex; gap: 28px; flex-wrap: wrap; align-items: center; justify-content: center; }
+  .recognized .badges img { height: 84px; width: auto; }
+
+  .cta { background: var(--primary); color: var(--white); text-align: center; }
+  .cta h2 { color: var(--white); }
+  .cta p { color: #DCE6FF; margin-bottom: 28px; }
+  .cta .btn { background: var(--white); color: var(--primary); }
+  .cta .btn:hover { background: var(--bg-soft); }
+
+  footer { background: var(--navy-deep); color: #C9D6FB; padding: 64px 0 32px; font-size: 0.93rem; }
+  footer img.logo { height: 34px; width: auto; margin-bottom: 18px; }
+  footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr; gap: 32px; }
+  footer h4 { color: var(--white); font-size: 0.98rem; margin-bottom: 12px; }
+  footer ul { list-style: none; }
+  footer li { margin-bottom: 8px; }
+  footer a:hover { color: var(--white); }
+  footer .social { display: flex; gap: 12px; margin-top: 14px; }
+  footer .social img { height: 24px; width: 24px; }
+  footer .legal { border-top: 1px solid #1B2B55; margin-top: 44px; padding-top: 22px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  footer .legal ul { display: flex; gap: 20px; flex-wrap: wrap; }
+  @media (max-width: 860px) { footer .cols { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<div class="topbar">Join the CPAClub community and get the latest news, insights, and updates. <a href="https://cpaclub.cpa">Subscribe Now</a></div>
+
+<header class="site">
+  <div class="wrap">
+    <a href="https://cpaclub.cpa" aria-label="CPAClub home"><img class="logo" src="https://cpaclub.cpa/wp-content/uploads/2025/03/cpaclub-dark.svg" alt="CPAClub"></a>
+    <nav aria-label="Main">
+      <a href="#solutions">Solutions</a>
+      <a href="https://cpaclub.cpa/case-studies/">Case Studies</a>
+      <a href="https://cpaclub.cpa/resources">Resources</a>
+      <a href="https://cpaclub.cpa/careers/">Community</a>
+      <a href="https://cpaclub.cpa/about-us/">About</a>
+    </nav>
+    <a class="btn btn-primary" href="https://cpaclub.cpa/contact-us/">Connect With Us</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Move Your Firm Forward</h1>
+        <p class="lead">Access experienced accounting, advisory, and compliance professionals to help your firm operate with greater confidence and clarity.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://cpaclub.cpa/contact-us/">Book a Discovery Session</a>
+          <a class="btn btn-ghost" href="#solutions">Learn More</a>
+        </div>
+      </div>
+      <img class="photo" src="https://cpaclub.cpa/wp-content/uploads/2025/03/home-hero-1-cropped-1024x798.webp" alt="CPAClub professionals collaborating">
+    </div>
+  </section>
+
+  <div class="trust">
+    <div class="wrap">
+      <div class="award">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/07/logo-calcpa.svg" alt="CalCPA">
+        <strong>2025 Firm of the Year</strong>
+      </div>
+      <div class="logos" aria-label="Trusted by leading firms">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2026/04/home-logo1.svg" alt="">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2026/04/home-logo2.svg" alt="">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2026/04/home-logo3.svg" alt="">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2026/04/home-logo4.svg" alt="">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2026/04/home-logo5.svg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <section class="pressures">
+    <div class="wrap">
+      <div class="center">
+        <h2>The Pressures Facing Today’s Firms</h2>
+        <p>Firms today are being asked to do more with less, balancing quality, risk, and growth in an increasingly complex and demanding environment.</p>
+      </div>
+      <div class="grid-4">
+        <div class="pill-card"><img src="https://cpaclub.cpa/wp-content/uploads/2026/03/talent-icon.svg" alt="">Talent &amp; Succession</div>
+        <div class="pill-card"><img src="https://cpaclub.cpa/wp-content/uploads/2026/03/regulatory-icon.svg" alt="">Quality &amp; Regulation</div>
+        <div class="pill-card"><img src="https://cpaclub.cpa/wp-content/uploads/2026/03/emerging-icon.svg" alt="">AI &amp; Technology</div>
+        <div class="pill-card"><img src="https://cpaclub.cpa/wp-content/uploads/2026/03/succession-icon.svg" alt="">M&amp;A &amp; Private Equity</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="solutions" id="solutions">
+    <div class="wrap">
+      <div class="center">
+        <h2>Accounting, Advisory, and Compliance Solutions for Firms</h2>
+        <p>From financial reporting to complex technical accounting, we provide access to senior-level expertise to support audit and advisory engagements, helping your firm expand capacity, navigate evolving standards, and deliver accurate, compliant results.</p>
+      </div>
+      <div class="grid-3">
+        <div class="cap">
+          <img class="shot" src="https://cpaclub.cpa/wp-content/uploads/2026/03/capabilities1.webp" alt="">
+          <div class="body"><img class="icon" src="https://cpaclub.cpa/wp-content/uploads/2026/03/icon-blue.svg" alt=""><h3>Accounting &amp; Assurance</h3><p>Access experts for accounting, advisory, and assurance needs.</p></div>
+        </div>
+        <div class="cap">
+          <img class="shot" src="https://cpaclub.cpa/wp-content/uploads/2026/03/capabilities2.webp" alt="">
+          <div class="body"><img class="icon" src="https://cpaclub.cpa/wp-content/uploads/2026/03/icon-brown.svg" alt=""><h3>Quality &amp; Regulatory</h3><p>Strengthen quality management and navigate regulatory expectations.</p></div>
+        </div>
+        <div class="cap">
+          <img class="shot" src="https://cpaclub.cpa/wp-content/uploads/2026/03/capabilities3.webp" alt="">
+          <div class="body"><img class="icon" src="https://cpaclub.cpa/wp-content/uploads/2026/03/icon-green.svg" alt=""><h3>Training &amp; Transformation</h3><p>Drive transformation through technology and talent development.</p></div>
+        </div>
+      </div>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://cpaclub.cpa/accounting-firms/">Explore How We Support CPA Firms</a>
+        <a class="btn btn-ghost" href="https://cpaclub.cpa/law-firms/">Discover How We Help Law Firms</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="wrap">
+      <div class="center">
+        <h2>Our Knowledge, Your Advantage</h2>
+        <p>Our team of CPAs with experience across Big 4 and regional firms provides the expertise firms need to solve complex accounting, regulatory, and quality management challenges, confidently accelerating growth.</p>
+      </div>
+      <div class="grid-4">
+        <div class="stat"><div class="label">Passholders</div><div class="sub">firms served</div></div>
+        <div class="stat"><div class="label">Savings</div><div class="sub">more affordable than full-time professionals</div></div>
+        <div class="stat"><div class="label">Expertise</div><div class="sub">average years of experience per professional</div></div>
+        <div class="stat"><div class="label">Training</div><div class="sub">hours led by our professionals</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="steps">
+    <div class="wrap">
+      <div class="center">
+        <h2>Getting Started with CPAClub</h2>
+        <p>Getting started is simple. In just four quick steps, including selecting the path that fits your firm’s needs, you’ll gain on demand access to experienced CPAs ready to support your firm.</p>
+      </div>
+      <div class="grid-4">
+        <div class="step"><h3>Step 1: Choose Your Pass</h3><p>Discover the right fit with our range of passes, then select the level of support that matches your firm’s needs, complexity, and priorities.</p></div>
+        <div class="step"><h3>Step 2: Select Your Term</h3><p>Opt for the flexibility of a season pass or maximize value with an annual subscription.</p></div>
+        <div class="step"><h3>Step 3: Sign Up Effortlessly</h3><p>Begin your journey by digitally signing our agreement and completing your payment. It’s quick, secure, and hassle-free.</p></div>
+        <div class="step"><h3>Step 4: Schedule Onboarding</h3><p>Your dedicated CPAClub professional will learn your firm’s methodology, systems, and priorities, then get to work.</p></div>
+      </div>
+      <div class="actions"><a class="btn btn-primary" href="https://cpaclub.cpa/contact-us/">Book a Discovery Session Today</a></div>
+    </div>
+  </section>
+
+  <section class="why">
+    <div class="wrap">
+      <div class="center">
+        <h2>Leading the Way in a Challenging Financial Landscape</h2>
+        <p>Our award-winning subscription model offers access to top-tier accounting professionals without the cost or commitment of a full-time hire. Simple. Effective. Built for firms.</p>
+      </div>
+      <div class="grid-3">
+        <div class="item"><img src="https://cpaclub.cpa/wp-content/uploads/2026/04/Support.svg" alt=""><h3>Excellence</h3><p>Access top-tier accountants and auditors through flexible subscriptions, no hiring needed.</p></div>
+        <div class="item"><img src="https://cpaclub.cpa/wp-content/uploads/2026/04/Support-1.svg" alt=""><h3>Expertise</h3><p>Integrate seamlessly with your firm’s existing methodology and workflow to deliver results.</p></div>
+        <div class="item"><img src="https://cpaclub.cpa/wp-content/uploads/2026/04/Support-2.svg" alt=""><h3>Innovation</h3><p>Rely on dedicated CPAClub professionals committed to your firm’s quality standards.</p></div>
+      </div>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://cpaclub.cpa/about-us/">Get to Know Us</a>
+        <a class="btn btn-ghost" href="https://cpaclub.cpa/contact-us/">Schedule a Call With The Experts Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="webinar">
+    <div class="wrap">
+      <div>
+        <span class="tag">Earn 1 CPE Credit</span>
+        <h2>Tune in to Qualified Opinions</h2>
+        <p class="meta">The issues everyone’s talking about. The opinions you won’t hear everywhere else.</p>
+        <p>Qualified Opinions takes on what’s changing across professional services, why it matters, and what firms and their people should be thinking about next.</p>
+        <p style="margin-top:24px"><a class="btn btn-primary" href="https://www.youtube.com/playlist?list=PL9eV1W43Ae_XIPMbT1bsW8lYg2xL-qjmf">Watch the Latest Episode</a></p>
+      </div>
+      <img class="photo" src="https://cpaclub.cpa/wp-content/uploads/2026/01/featured-image-webinar-new-e1775050641478-1024x701.webp" alt="Qualified Opinions">
+    </div>
+  </section>
+
+  <section class="seen">
+    <div class="wrap">
+      <div class="center"><h2>As Seen In</h2></div>
+      <div class="logos">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/03/as-seen-in-accounting-today.svg" alt="Accounting Today">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/03/as-seen-in-associated-press.svg" alt="Associated Press">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/03/as-seen-in-cpa-practice-advisor.svg" alt="CPA Practice Advisor">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/03/as-seen-in-marketwatch.svg" alt="MarketWatch">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/03/as-seen-in-yahoo-finance.svg" alt="Yahoo Finance">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/03/as-seen-in-cpa-trendlines.svg" alt="CPA Trendlines">
+      </div>
+    </div>
+  </section>
+
+  <section class="quotes">
+    <div class="wrap">
+      <div class="center"><h2>What Our Passholders Say</h2></div>
+      <div class="grid-3">
+        <div class="quote"><p>“We’re a smaller firm, and I knew we had to do something about SQMS—but I could never fit it in with the day-to-day of running the audit practice and the firm. Finding out about CPAClub was like heaven sent.”</p><div class="who"><strong>Wade Whitlow</strong><span>Partner, KM&amp;L</span></div></div>
+        <div class="quote"><p>“We use CPAClub’s engagement quality review services for our PCAOB audits, and they have been phenomenal. Their timely advice and expert guidance support our audits and enhance our team’s learning.”</p><div class="who"><strong>Arpit Padhiar</strong><span>Director of Internal Assurance, KNAV</span></div></div>
+        <div class="quote"><p>“CPAClub is an excellent resource. Almost every financial statement we compile, review, or audit goes to CPAClub before it’s issued. The peace of mind I get is invaluable.”</p><div class="who"><strong>Ed Weaver</strong><span>Audit Partner, Hunter, Hunter &amp; Hunt</span></div></div>
+        <div class="quote"><p>“CPAClub provides great value and service. Highly professional and organized, and very easy to work with.”</p><div class="who"><strong>Kevin Schoen</strong><span>Audit Manager, Duner and Foote</span></div></div>
+        <div class="quote"><p>“Fantastic service provider. Instrumental in reducing our compliance risk. Very responsive and knowledgeable.”</p><div class="who"><strong>Sam Salty</strong><span>Global Managing Partner, GuzmanGray</span></div></div>
+        <div class="quote"><p>“Every time they have been professional and up to date on accounting topics. Participants have also evaluated their instructors with high praises.”</p><div class="who"><strong>Josh Yorra</strong><span>Director of Instructional Development, 20-20 Services</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="recognized">
+    <div class="wrap">
+      <div class="center"><h2>A Recognized Leader in the Profession</h2></div>
+      <div class="badges">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/07/firm-of-the-year.svg" alt="Firm of the Year">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/07/Badge-1-1.svg" alt="Award badge">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/07/Badge-2.svg" alt="Award badge">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/07/Badge-3.svg" alt="Award badge">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/07/Badge-4.svg" alt="Award badge">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/07/Badge-5.svg" alt="Award badge">
+        <img src="https://cpaclub.cpa/wp-content/uploads/2025/07/Badge-6.svg" alt="Award badge">
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap">
+      <h2>Powering Your Firm Forward</h2>
+      <p>Connect with our experts and gain the peace-of-mind you need to succeed.</p>
+      <a class="btn" href="https://cpaclub.cpa/contact-us/">Book a Discovery Session Now</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <img class="logo" src="https://cpaclub.cpa/wp-content/uploads/2025/03/cpaclub-white.svg" alt="CPAClub">
+        <p>Join the CPAClub community and get the latest news, insights, and updates.</p>
+        <div class="social">
+          <a href="https://www.linkedin.com/company/cpaclub/"><img src="https://cpaclub.cpa/wp-content/uploads/2025/03/LinkedIn.svg" alt="LinkedIn"></a>
+          <a href="https://www.youtube.com/@cpaclubinc"><img src="https://cpaclub.cpa/wp-content/uploads/2025/03/Youtube.svg" alt="YouTube"></a>
+          <a href="https://www.facebook.com/CPAClubInc"><img src="https://cpaclub.cpa/wp-content/uploads/2025/03/Facebook.svg" alt="Facebook"></a>
+          <a href="https://www.instagram.com/cpaclubinc/"><img src="https://cpaclub.cpa/wp-content/uploads/2025/03/Instagram.svg" alt="Instagram"></a>
+        </div>
+      </div>
+      <div>
+        <h4>Solutions</h4>
+        <ul>
+          <li><a href="https://cpaclub.cpa/accounting-firms/">For Accounting Firms</a></li>
+          <li><a href="https://cpaclub.cpa/law-firms/">For Law Firms</a></li>
+          <li><a href="https://cpaclub.cpa/ctapp-compliance-review/">CTAPP Compliance Reviews</a></li>
+          <li><a href="https://cpaclub.cpa/companies/">For Companies</a></li>
+          <li><a href="https://cpaclub.cpa/soc-command-center/">SOC Command Center</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Insights &amp; Impact</h4>
+        <ul>
+          <li><a href="https://cpaclub.cpa/media/">Press &amp; Media</a></li>
+          <li><a href="https://cpaclub.cpa/thought-leadership/">Thought Leadership</a></li>
+          <li><a href="https://www.youtube.com/playlist?list=PL9eV1W43Ae_XIPMbT1bsW8lYg2xL-qjmf">Qualified Opinions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Community</h4>
+        <ul>
+          <li><a href="https://cpaclub.cpa/careers/">Careers</a></li>
+          <li><a href="https://cpaclub.cpa/club22/">Experiences</a></li>
+          <li><a href="https://cpaclub.cpa/ally/">Referrals</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect With Us</h4>
+        <ul>
+          <li><a href="https://cpaclub.cpa/contact-us/">Book a Discovery Session</a></li>
+          <li><a href="https://cpaclub.cpa/contact-us/">Contact Us</a></li>
+          <li><a href="https://cpaclub.cpa/case-studies/">Case Studies</a></li>
+          <li><a href="https://cpaclub.cpa/about-us/">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 CPA Club Inc. All Rights Reserved.</span>
+      <ul>
+        <li><a href="https://cpaclub.cpa/privacy-policy/">Privacy Policy</a></li>
+        <li><a href="https://cpaclub.cpa/terms-and-conditions/">Terms and Conditions</a></li>
+        <li><a href="https://cpaclub.cpa/cookie-policy/">Cookie Policy</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
